@@ -1,0 +1,24 @@
+{
+  "name": "reddit-downloader-gui-io",
+  "version": "1.0.0",
+  "description": "a information-overflow widget for reddit downloader gui",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Proxtx/reddit-downloader-gui-io.git"
+  },
+  "author": "Proxtx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Proxtx/reddit-downloader-gui-io/issues"
+  },
+  "homepage": "https://github.com/Proxtx/reddit-downloader-gui-io#readme",
+  "dependencies": {
+    "@proxtx/combine-rest": "^1.0.4",
+    "@proxtx/config": "^1.0.2"
+  }
+}
