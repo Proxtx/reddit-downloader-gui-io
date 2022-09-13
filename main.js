@@ -9,6 +9,8 @@ const statsApi = await genCombine(
 );
 
 export class Info {
+  name = "Downloader";
+
   async info() {
     let stats = await statsApi.getAllStats(config.RedditDownloader.pwd);
     let returnObj = [];
